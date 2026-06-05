@@ -1,0 +1,495 @@
+<html class="scroll-smooth" lang="id"><head></head><body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">```html
+
+
+
+
+
+    <meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zuppa Soup Creamy Pondok Mutiara</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#b5c8df",
+                        "on-surface-variant": "#594238",
+                        "inverse-on-surface": "#f6f1df",
+                        "on-tertiary": "#ffffff",
+                        "primary-container": "#c64f00",
+                        "on-secondary-container": "#6f5900",
+                        "primary-fixed": "#ffdbcd",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "surface-tint": "#a23f00",
+                        "primary": "#9e3d00",
+                        "primary-fixed-dim": "#ffb595",
+                        "tertiary-container": "#64768a",
+                        "surface-container-low": "#f9f4e2",
+                        "on-primary-container": "#fffbff",
+                        "on-tertiary-container": "#fdfcff",
+                        "on-background": "#1d1c11",
+                        "on-surface": "#1d1c11",
+                        "on-error-container": "#93000a",
+                        "outline": "#8c7166",
+                        "error": "#ba1a1a",
+                        "surface-dim": "#dfdac9",
+                        "inverse-surface": "#323125",
+                        "surface-bright": "#fef9e7",
+                        "tertiary-fixed": "#d1e4fb",
+                        "secondary-fixed-dim": "#eec209",
+                        "on-secondary-fixed-variant": "#574500",
+                        "secondary": "#735c00",
+                        "outline-variant": "#e0c0b2",
+                        "on-tertiary-fixed": "#091d2e",
+                        "surface-container": "#f3eedc",
+                        "surface": "#fef9e7",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-fixed": "#231b00",
+                        "inverse-primary": "#ffb595",
+                        "surface-container-high": "#ede8d7",
+                        "surface-variant": "#e7e3d1",
+                        "on-tertiary-fixed-variant": "#36485b",
+                        "secondary-container": "#fed023",
+                        "tertiary": "#4c5e71",
+                        "secondary-fixed": "#ffe084",
+                        "surface-container-highest": "#e7e3d1",
+                        "on-error": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "background": "#fef9e7",
+                        "on-primary-fixed": "#351000",
+                        "on-primary-fixed-variant": "#7c2e00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-desktop": "48px",
+                        "container-max": "1280px",
+                        "margin-mobile": "16px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["Montserrat"],
+                        "headline-lg": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-xl": ["Playfair Display"],
+                        "body-md": ["Montserrat"],
+                        "label-sm": ["Montserrat"],
+                        "body-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-pattern {
+            background-color: #fef9e7;
+            background-image: radial-gradient(#e0c0b2 0.5px, transparent 0.5px), radial-gradient(#e0c0b2 0.5px, #fef9e7 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+        .food-card-hover:hover .food-image {
+            transform: scale(1.05);
+        }
+        .food-card-hover:hover img {
+            transform: scale(1.05);
+        }
+        .nav-active {
+            border-bottom: 2px solid #9e3d00;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(224, 192, 178, 0.3);
+        }
+    </style>
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 shadow-sm bg-surface dark:bg-surface-container">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<a class="font-headline-lg text-headline-lg text-primary truncate max-w-[200px] md:max-w-none md:font-headline-lg md:text-headline-lg" href="#">
+            Zuppa Soup Creamy Pondok Mutiara
+        </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#menu">Menu</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#location">Location</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#about">Tentang Kami</a></div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md text-label-md active:scale-95 transition-transform shadow-sm hover:opacity-90 md:flex hidden" onclick="openOrderModal()">
+                Order Now
+            </button>
+<button class="p-1 hover:bg-surface-container rounded-full md:hidden" onclick="toggleMobileNav()">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="pt-24 lg:pt-32 pb-20">
+<!-- Hero Section from Home -->
+<section class="relative overflow-hidden px-gutter max-w-container-max mx-auto mb-20 lg:mb-32">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="z-10 order-2 lg:order-1">
+<h1 class="font-headline-xl text-headline-xl text-primary mb-6 leading-tight">
+                    Kehangatan Zuppa Soup Creamy Pondok Mutiara
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl">
+                    Kelezatan rumahan yang dibuat dengan bahan premium. Siap menemani momen spesial Anda dengan tekstur pastry yang renyah dan krim sup yang kaya rasa.
+                </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md text-label-md shadow-lg hover:shadow-xl transition-all active:scale-95 flex items-center gap-2" href="#menu">
+                        Lihat Menu
+                        <span class="material-symbols-outlined">restaurant_menu</span>
+</a>
+<button class="border-2 border-secondary text-secondary px-8 py-4 rounded-lg font-label-md text-label-md hover:bg-secondary/5 transition-all active:scale-95" onclick="openOrderModal()">
+                        Pesan Sekarang
+                    </button>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 h-[400px] lg:h-[600px] group">
+<div class="absolute inset-0 bg-secondary-fixed opacity-20 rounded-3xl transform rotate-3 scale-105 group-hover:rotate-1 transition-transform duration-700"></div>
+<img alt="Gourmet Burger and Zupa Soup" class="w-full h-full object-cover rounded-3xl shadow-2xl relative z-10" data-alt="A high-resolution, appetizing shot of a golden-brown Zupa Zupa soup with its flaky puff pastry crust rising perfectly over a ceramic bowl, paired with a massive, juicy gourmet beef burger. The setting is a warm, artisanal kitchen with soft, morning sunlight streaming through a window, highlighting the steam rising from the soup. The color palette features rich terracotta, cream backgrounds, and deep browns, evoking a premium and cozy dining experience. The lighting is bright and high-key, emphasizing the crispy texture of the pastry and the freshness of the burger's ingredients." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA56t-Rt64ax7S_4LeDqMGlDse_gV5SAPLh7CYHsS9V8L0glmzDsKj5l4QYGMMnZ3HkNHyivV_6WCWDld5qbtSrIUorhhs2tcKRqFk5XLhfSAFuqrA7cY_t5sR4awmIbyxmnJ6AoPmKvkPs78tyD9LFVNz7m7hsJOVShI0-1b08CqJkpbjh0WMMKxiSQXYVNX1LZwUvmqpicvJEkiEzNY3bf0CboNlyaC06X7DJKOW5SFGRNvfseYAk2Z69Vq4YxWFbJ0M4S-rpLNrn"/>
+</div>
+</div>
+</section>
+<!-- "Menu Favorit Kami" from Home -->
+<section class="bg-surface-container-low py-20 lg:py-32 mb-16">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="text-center mb-16">
+<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full font-label-sm text-label-sm mb-4 inline-block">Best Seller</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Menu Favorit Kami</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto">
+<!-- Zupa Mix Card -->
+<div class="md:col-span-7 group food-card-hover overflow-hidden rounded-3xl bg-surface shadow-md flex flex-col md:flex-row h-full">
+<div class="w-full md:w-1/2 overflow-hidden h-64 md:h-full">
+<img alt="Signature Zupa Zupa" class="w-full h-full object-cover transition-transform duration-500" data-alt="A close-up photograph of a signature Zupa Mix soup, featuring a buttery, multi-layered puff pastry crust that has been baked to a perfect golden-brown shatter-crisp finish. The ceramic bowl underneath is slightly visible, suggesting a rich, creamy mushroom and chicken filling inside. The image is set against a clean, cream-colored marble surface with artisanal bread crumbs and a sprig of thyme scattered artistically nearby. The lighting is warm and directional, creating soft shadows that emphasize the height and texture of the pastry dome." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC4WQbtrZf8JDyiCqpqvYxpJP2rttk3nHqx_scgFY3mkjvAG9pfG5h4zHNRc9wwDShDMu9jI6hfn5JLqI-9SGoi9u_QiI7dBKjfMVdHRRWWEEfEfPHbxuy6QEb0lN7NRMNLeAjRCh-0u2mjH5UxM2ShORO7cAUjC1kIsULCwNSuo8DF2o4emFLhGkAoe5INBjJQkYYvguq3mxFMotga7b257NaeAaceAzYPRZAGeFKczbLgzDDCbA2_WMmaYE5ACIHOklq0kOzV3kh"/>
+</div>
+<div class="p-8 md:w-1/2 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Zupa Mix Signature</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Paduan krim sup lembut dengan jagung, ayam, dan sosis premium, dibalut pastry renyah khas kami.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="font-label-md text-label-md text-secondary text-lg">Rp 35.000</span>
+</div>
+</div>
+</div>
+<!-- Burger Beef Card -->
+<div class="md:col-span-5 group food-card-hover overflow-hidden rounded-3xl bg-surface shadow-md flex flex-col">
+<div class="h-64 overflow-hidden">
+<img alt="Gourmet Beef Burger" class="w-full h-full object-cover transition-transform duration-500" data-alt="A vertical, appetizing shot of a gourmet Beef Patty Burger stacked high with fresh lettuce, thick slices of vine-ripened tomatoes, and melted cheddar cheese dripping down the side of a thick, seared wagyu beef patty. The bun is a toasted brioche with a glossy sheen, sprinkled with black and white sesame seeds. The background is a soft-focus artisanal cafe setting with warm wood tones. The lighting is vibrant and professional, emphasizing the juicy glistening of the meat and the crispness of the vegetables in a bright, modern palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMH9o7tLfX2cXsILrBV9Q2JQjBA68Tryed-_fW6XA7mUWPajc_8qPXqAQ8afKO36U2e8AdmCvIhJO6_l4YUhyaJJn-JmQY7iYba9hCz7ZXb4yDclWRBOFr6nvLmOvZ2L8oHuj-8V2uXv7acz1BRHt7kx7YzWrUZlTCzOgB2B5SlUHI-NUJ0yPsT0T6Et3_pdsV2B1Pm1PCiNp0r6IjntEQ-CxkQjVV3YI5NLslD1hjl1VhFEPuyrpOoppfK81DZ6uA2MpzNMiRNLf1"/>
+</div>
+<div class="p-8">
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Burger Beef Patty</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">100% Australian Beef Patty dengan saus rahasia dan sayuran segar dalam roti brioche lembut.</p>
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-secondary text-lg">Rp 48.000</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Full Menu Section from Menu Screen -->
+<div class="scroll-mt-32" id="menu">
+<section class="px-gutter max-w-container-max mx-auto mb-16">
+<div class="relative h-[400px] rounded-3xl overflow-hidden group">
+<img alt="Artisanal Burger and Soup" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A professional high-resolution food photography shot featuring a gourmet beef burger with melting cheese and fresh lettuce next to a golden-brown puff pastry soup. The setting is a warm, rustic kitchen with soft natural sunlight streaming in, creating long, gentle shadows. The color palette emphasizes warm terracotta, golden yellows, and rich wood tones, evoking an artisanal and premium comfort food experience. Soft-focus background enhances the texture of the crispy pastry and juicy meat." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo7SX5NxHH_Qt4GuZfa9J4hUxT5yS1_P2NEesTrJx0OUHOkFvkbFCbp3MMM_VMvzlnemgmlM7RvdZdNrAftuG-VLBkYnUKLVQsfROXx3UpBaUwUWbn9kekY0GhrpggABJVzlsw8vV9k57JaaYnbPrravxIm7rfgBGPzMBbEhXsd-Z349Ebd_2QjdRzFQJKLHGrjTXdhJHbvM2SbznCluUWlFK8KXuOo6B5ibIOPyxbEQD7HUaW4Nmr-t0EzR9ROoROE6hI-cpg1DNR"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex flex-col justify-end p-12">
+<h1 class="font-headline-xl text-headline-xl text-white mb-4">Our Artisanal Menu</h1>
+<p class="text-white/90 max-w-2xl font-body-lg text-body-lg">Hand-crafted comfort food made with premium ingredients and a dash of neighborly warmth. Specializing in our signature golden puff pastry zuppa soups.</p>
+</div>
+</div>
+</section>
+<!-- Category Navigation (Pills) -->
+<nav class="sticky top-[72px] z-40 bg-surface/80 backdrop-blur-md py-4 mb-12">
+<div class="flex justify-center gap-4 px-gutter">
+<a class="bg-secondary-container text-on-secondary-container px-6 py-2 rounded-full font-label-md text-label-md hover:shadow-sm transition-all menu-tab" href="#zupa">Zupa Zupa</a>
+<a class="bg-surface-variant text-on-surface-variant px-6 py-2 rounded-full font-label-md text-label-md hover:bg-surface-container-high transition-all menu-tab" href="#burger">Burgers</a>
+<a class="bg-surface-variant text-on-surface-variant px-6 py-2 rounded-full font-label-md text-label-md hover:bg-surface-container-high transition-all menu-tab" href="#sides">Sides &amp; Pasta</a>
+</div>
+</nav>
+<!-- Section 1: Zupa Zupa -->
+<section class="px-gutter max-w-container-max mx-auto mb-20 scroll-mt-40" id="zupa"><div class="flex items-end justify-between mb-8 border-b border-outline-variant pb-4">
+<div>
+<span class="text-primary font-label-md text-label-md uppercase tracking-widest">The Signature</span>
+<h2 class="font-headline-lg text-headline-lg">Zupa Zupa</h2>
+</div>
+<div class="text-right hidden md:block">
+<p class="font-label-sm text-label-sm text-on-surface-variant italic">Available in Glass Bowl (Large) or Foil (Medium)</p>
+</div>
+</div>
+<!-- Category: Zupa isi Ayam -->
+<div class="mb-16">
+<h3 class="font-headline-md text-headline-md text-primary mb-8 border-l-4 border-primary pl-4">Zupa isi Ayam</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Item 1: Ayam + Jagung -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL-nZmQevUeCw9lTxzBKENfTB_bjtLJIpUZ7wM7pWrEgyrai2JrXqvp_0n4AVrO4HfUoLUg6jgsoI6r5wUB8VTEUCDvbGlowKB7vaPKj1nDqBvSRNUzaGVcFtFakKKxiiAGssGLNp-swlxn72v0Dq-qDwRLd6rlmkH9njnO7xA9HylI9l3OwmoGs4yToTOrnxkjG1cBfdWhpx5S9dg3KWBtPeaW9sifCYfqm4RBFvQr6_CUQEyLucjuzr0-a7DM_OxkmOgxoHL98_L"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md mb-2">Zupa Ayam + Jagung</h4>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Potongan daging ayam lembut dengan jagung manis dalam krim sup kental.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 45.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 32.000</span></div>
+</div>
+</div>
+</div>
+<!-- Item 2: Sosis Ayam + Jagung -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBpssBiqnaNq67LDtn2OSBJ3ynkvAb5y1Q6gJThfsuJjjnBhXFmOCr7n7h_Rwg5eNWbeM8JtMlGRvTf96tUTIWahA2x2pPs6R4xltjeXC3fbjr0CAWVmsFCBA10yaDX2cwCSXJlNR7Qs5rGq7F1ipnyh9S6plqPjmDLkp8LnmFVowwqvvmM5QR6p64pE4HB8u0vFkG541W-lNlZcQK_9MBcAotcvFMBNWwo5JQQs-XrB2TGh1D8gLv25otOEBXBrt5VAP-cnrF6Mtk"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md mb-2">Zupa Sosis Ayam + Jagung</h4>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Lezatnya sosis ayam premium berpadu dengan jagung manis pilihan.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 45.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 32.000</span></div>
+</div>
+</div>
+</div>
+<!-- Item 3: Mix Ayam -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4IC_UVKC_JZuRWgk9qGjJAudJlMpi_G1hdSOSgfpQ66sz8lT_a0qFWB_TJkiorgYNsq8l5wnqNwLQvNHODVY_flnUlLkpeuIQpATyDhctrgIWPlXjFBJZBhcvVtAiBWHJl1zqhUh_NO411b_2lvYhQ7KNBIwNnangQtLkbZdrtYB2Xw-QJY5RbnYMp7AhAObZAQPdg408RNFhGfeugpUv2HyNBdTwcxV4_GI8FAwpOdAl80NSQZqiClOHca5pHDcKl0BVExIGJpDQ"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-headline-md text-headline-md">Zupa Mix Ayam</h4>
+<span class="bg-secondary-container text-on-secondary-container text-[10px] px-2 py-1 rounded font-bold">FAVORIT</span>
+</div>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Perpaduan lengkap: ayam, sosis ayam, dan jagung untuk rasa maksimal.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 45.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 32.000</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Category: Zupa isi Sapi -->
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-8 border-l-4 border-primary pl-4">Zupa isi Sapi</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Item 1: Smoke Beef + Jagung -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLskBtMqrt7lX0twkdvku8Padx9NmuiS_e0_DWqf4xFdzYW6RV7WqiQoyL6kLSzJNQEd9ohiClIf_hVMxXAq7Beo-9N1MjJrbTPZbeSQZFFSVDyDAxgYx5r8GSAKisLZBFZBqcT2Xm5pQsz6S12cfXD-hSY5WgpYGnEtV4wiQiOQJ_KoIYn8lvNUIJirM2aHmhWvcFSbf35SItWxectRLL4HQgcEHD2aoge95fxV5p0yl-wwXktKE4t5KEhv"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md mb-2">Zupa Smoke Beef + Jagung</h4>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Daging sapi asap berkualitas dengan aroma smoky dan jagung manis.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 48.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 35.000</span></div>
+</div>
+</div>
+</div>
+<!-- Item 2: Sosis Sapi + Jagung -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLsn1WL45tGOtMxPl1qHBbhTgdGjbfgIBctfYogYt11b-Zr0HBvvHjuccCxzeJundbtIgl83z5Wstvl78VsEv3xmwQ4IImQBogrCj1vvPw97LVFp9oqSMslkSKkHvMy6Vxefrah_2fNxRGdx1IgVqNNKcv6N2OVAjYpkawA2e5mp_efdlxWUiwtlQf4ljRKhQdJaRN2ZqBo6ZV3bzfH-vu-lPoShTOIJD8Rb6kAk1E5kwRdmOO5W5CxYH2XF"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md mb-2">Zupa Sosis Sapi + Jagung</h4>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Sosis sapi premium dengan tekstur padat dalam balutan krim sup lezat.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 48.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 35.000</span></div>
+</div>
+</div>
+</div>
+<!-- Item 3: Mix Sapi -->
+<div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 food-card-hover border border-outline-variant/10">
+<div class="h-56 overflow-hidden">
+<img class="w-full h-full object-cover food-image transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLsAG4LI0RwOV5kNvFSI8msjf7LMWGJRnw3En-wZtF4D6U9ZSwOvlqfLcTtBYmAia8TKQy--38ihkcR-yUqe0CgDCygtIXEfh-NWduqh2YuOT5x40Pm6GKTd0SsH19R7TqLH7U9geGZ5JemcJJfLQpiEor4O3oDA4nNUM_IYyNBe-OSvPuVbEquZBqoPZjBgow2ubzlGEn24ZbuC6FFQ-UyPVNkkejBvn8AZWibiaNpFr22RG48o71dRNceK"/>
+</div>
+<div class="p-6">
+<h4 class="font-headline-md text-headline-md mb-2">Zupa Mix Sapi</h4>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Kombinasi smoke beef, sosis sapi, dan jagung untuk pencinta daging sapi.</p>
+<div class="space-y-2 border-t border-outline-variant pt-4">
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Large</span><span class="font-bold text-primary">Rp 48.000</span></div>
+<div class="flex justify-between items-center"><span class="font-label-sm text-label-sm">Size Medium</span><span class="font-bold text-primary">Rp 35.000</span></div>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<!-- Section 2: Burger -->
+<section class="bg-surface-container py-20 scroll-mt-40" id="burger">
+<div class="px-gutter max-w-container-max mx-auto">
+<div class="mb-12 text-center">
+<span class="text-primary font-label-md text-label-md uppercase tracking-widest">Grilled to Perfection</span>
+<h2 class="font-headline-lg text-headline-lg">Premium Burgers</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Burger 1 -->
+<div class="bg-white flex flex-col md:flex-row rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="md:w-1/2 overflow-hidden h-64 md:h-auto">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A juicy, premium beef burger with melted cheddar cheese, fresh lettuce, tomato, and red onion on a toasted brioche bun. The lighting is crisp and detailed, showing the texture of the grilled meat and the shine on the bun. The background is a clean, modern kitchen setting with soft bokeh, maintaining the warm terracotta and cream color palette of the artisanal brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARRMaytimZ_HP840bkLvSa20XJJhSHSMlC9hUGixbKaitlPUgH83gn_Ud9w39X4dG1Km6h8jxCi9MlX9LTj6UZpXCVlS-1GcvnBjF6UFdGtXiE9KjsKQYbm0roVAsgzCSIOs44nz3qrllpROLjlDQYEvUV4dwhs3WQH_SyKS4R6MVRtGRwcqZqVgWqlBPC8m3FHZiS20lEV-L1SH8N-6_WZYxoOLB15PYIgaUTQN6vJ-4R6-zBmk1NK8h8S1GOMvkv7g6cM7i7xoKM"/>
+</div>
+<div class="md:w-1/2 p-8 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md mb-2">Classic Beef</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6">100% Angus beef patty, cheddar cheese, secret sauce, and fresh greens on brioche.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-primary">Rp 65.000</span>
+</div>
+</div>
+</div>
+<!-- Burger 2 -->
+<div class="bg-white flex flex-col md:flex-row rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="md:w-1/2 overflow-hidden h-64 md:h-auto">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A crispy buttermilk fried chicken burger with spicy slaw and pickles, served on a soft artisanal bun. The lighting emphasizes the golden-brown 'crunch' of the chicken breading. The scene is bright and professional, styled with a warm cream background and subtle terracotta accents to fit the modern bakery identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmzhZoNEV25-k0PUmSr9ZqZQhZVll-u782L5_EHlM3RaIlQu--ontxJLXYClZGUXHzOcruqYJdjgnK9pB6aeCLC1xiGEk2RgOdg9QPbzTF3b1-G54meWWmeyHOgm_J62PqgoToB9K3kZR3fkIE6iL-I4y7335AwcaWnZobic09CDQz4HNuV3EvEFfsNx7UMqMw8KJqdT5PkHTJx76GrT24-rjGE1yqBujLIqFXHFMRvTAV2x2VyXtVhHnfzckLA3uamOrVfIK_sHQc"/>
+</div>
+<div class="md:w-1/2 p-8 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md mb-2">Crispy Burger</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6">Double-breaded golden chicken thigh dengan honey mustard dan tangy slaw.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-primary">Rp 58.000</span>
+</div>
+</div>
+</div>
+<!-- Burger 3 -->
+<div class="bg-white flex flex-col md:flex-row rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="md:w-1/2 overflow-hidden h-64 md:h-auto">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A grilled chicken breast burger with avocado and roasted peppers. The lighting is soft and natural, emphasizing the healthy, artisanal quality of the ingredients. The burger is presented on a minimalist white plate against a light cream background, creating a high-end, clean UI feel consistent with a professional comfort food brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu3k-s-XRlNCQBNhW4_cDfnL4YDVfQAz9S2YGMN_-CzMcRkJ4LgmXsXAwGwu3CZMBp_k1iihx1i89nkRodqBuk-IiwrWerKQR-h9L4ryqiWR0Yix09_-xzI6U8bwREJSjc-6J9h-TBBD3ZTc4Y4TwUUzi2Tounz1ncX3WE8D6zbZsV574SwIPPgXEPIPqD_XV5rdygarG0IZdD5DDdhb6Ylgep9buGwyQ1I5WwzTSPcqV6FPNhDmUbdWwOiuLL6N2sEF65Khf-GVgy"/>
+</div>
+<div class="md:w-1/2 p-8 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md mb-2">Chicken Burger</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6">Flame-grilled herb-marinated chicken breast dengan avocado dan mayo.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-primary">Rp 55.000</span>
+</div>
+</div>
+</div>
+<!-- Burger 4 -->
+<div class="bg-white flex flex-col md:flex-row rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="md:w-1/2 overflow-hidden h-64 md:h-auto">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A smoky beef burger featuring crispy bacon, caramelized onions, and a dark BBQ sauce. The lighting is slightly moodier with warm highlights, accentuating the smoked texture of the beef and the glisten of the sauce. The overall aesthetic is rich and appetizing, using deep browns and golden yellows within the brand's premium color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwanG25Ch-cbTO8x65V1UYV13VsbTQFFimiliIYflYWbkP_pddmzeBwLvvgIn4SVNURNw_kHPgoPGwDIMTJZjWclGjhOw2BwtQsPp42K6wu73nWEfVQUYfcuW3kiCrRlJUfqj_AsFoCKawfTnoQQP_SOeuyfZkgDtXKL0vjSwuy8OYyGLeTcrajKAA5RDJtme2gh-I-SdwPb2yVktQqsQ9lReUmsXGzA6cF89frg2pNyHbEiqyv28YwVFEmB2nlBKKYBU-xcrhDRCk"/>
+</div>
+<div class="md:w-1/2 p-8 flex flex-col justify-center">
+<div class="flex items-center gap-2 mb-2">
+<h3 class="font-headline-md text-headline-md">Smoke Beef</h3>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<p class="text-on-surface-variant font-body-md text-body-md mb-6">Signature beef patty ditaburi smoked brisket slices dan BBQ drizzle.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-primary">Rp 72.000</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Kentang & Macaroni -->
+<section class="px-gutter max-w-container-max mx-auto py-20 scroll-mt-40" id="sides">
+<div class="flex items-center gap-4 mb-12">
+<h2 class="font-headline-lg text-headline-lg shrink-0">Sides &amp; Pasta</h2>
+<div class="h-px bg-outline-variant w-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Macaroni Schotel -->
+<div class="flex flex-col md:flex-row gap-8 items-center">
+<div class="w-full md:w-2/5 aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl">
+<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="A classic baked Macaroni Schotel in a white ceramic dish, with a thick, bubbling golden cheese crust and hints of smoked beef and parsley. The lighting is warm and bright, emphasizing the creamy texture under the crispy cheese. The styling is artisanal and home-cooked, set against a warm wooden surface that fits the bakery's welcoming brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWeV9WyVPj_S_2Bd-TayrvQHxzhO5oNtCTnUd828B2qICltCWSIdk-WpS-FDfq3nnxzw_-M0eef6u_mMRF2uNGnuzDH1tbTUu3C209ZRW-YSDzNvVYUQkTkCwklKDdvROA5for6snGRO0FVXadh0RCaYW6LEExz8bAjyEcA39PKmc1ZRlM1G8v8v792YpF8yqalrjsG80ZSmLZcqssCMdzgQZy_avjFQAAvE6Dom30i51NxPVLx-xr_c_tGz_m2IUiYtrCBDN1kZuW"/>
+</div>
+<div class="w-full md:w-3/5">
+<h3 class="font-headline-md text-headline-md mb-2">Macaroni Schotel</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Old-fashioned baked macaroni dengan smoked beef, nutmeg, dan kerak tebal dari tiga campuran keju.</p>
+<p class="font-headline-md text-primary mb-4">Rp 40.000</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-primary-fixed text-on-primary-fixed text-[12px] px-3 py-1 rounded-full font-bold">Cheesy</span>
+<span class="bg-primary-fixed text-on-primary-fixed text-[12px] px-3 py-1 rounded-full font-bold">Oven Baked</span>
+</div>
+</div>
+</div>
+<!-- Kentang Wedges -->
+<div class="flex flex-col md:flex-row gap-8 items-center">
+<div class="w-full md:w-2/5 aspect-square rounded-full overflow-hidden border-8 border-white shadow-xl">
+<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Gourmet potato wedges seasoned with herbs and sea salt, served with a side of creamy garlic dip. The lighting highlights the rough, crispy edges of the potatoes and the soft interior. The photography is high-end and appetizing, using a warm palette and shallow depth of field to keep focus on the texture of the potatoes, aligned with a premium comfort food aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlSxTNWwxr7r0cEB_zcnZCj8IguYJMHBeO5dSkurkenTon__vHrUuTJGHAZXniQ5WqtnWJwWnXFRRoj3kMm5hyK1kniy2PVNE3BiBcXiS4tTBnvtqkVbB5BQVcNBPhcab4FyFwyFUfAhhfycESvSyH1JT_mbGdP-mABxvqIhRTCQn1n0yGUJbNhr1zUUTMjsbwQvE8CJOgDFjkiR_53pT--Wy2f0XbOrOLqAUGRwjhSNDfKe8wKUuOVJsDcsLJGGp3W9CjK1qYhlQL"/>
+</div>
+<div class="w-full md:w-3/5">
+<h3 class="font-headline-md text-headline-md mb-2">Kentang Wedges</h3>
+<p class="text-on-surface-variant font-body-md text-body-md mb-4">Hand-cut potato wedges, double-fried for maximum crunch and seasoned with our secret sea-salt herb blend.</p>
+<p class="font-headline-md text-primary mb-4">Rp 28.000</p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-primary-fixed text-on-primary-fixed text-[12px] px-3 py-1 rounded-full font-bold">Hand-Cut</span>
+<span class="bg-primary-fixed text-on-primary-fixed text-[12px] px-3 py-1 rounded-full font-bold">Herbed</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- "Rahasia Kelezatan Kami" from Home -->
+<section class="py-20 lg:py-32 px-gutter max-w-container-max mx-auto overflow-hidden">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="grid grid-cols-2 gap-4">
+<img class="rounded-2xl shadow-lg w-full h-48 object-cover mt-8" data-alt="Close up of a professional chef's hands kneading fresh dough on a flour-dusted wooden table. The lighting is warm and atmospheric, highlighting the movement and the fine dust of flour in the air. The scene is set in an artisanal bakery with rustic charm, emphasizing the homemade and artisanal process of bread making. The color scheme is dominated by warm wood tones, creams, and the soft white of the flour." src="https://lh3.googleusercontent.com/aida-public/AB6AXuClXwn0MQlbgq614mQj4ID-GsB7a_SMVKK6CnjsUE-LoeR5dUxDjDtg7nsPToPFH_ayuZw8BWZnmRDqD8kQKLnVMO_7dei_NrsSmpkw1aGhxY7-gApV28jyGP6oMkkxoTgIaQkHjfx-gjV319ygX6_b4877FOQZTlu0TEhqDhzpVUZXN1HKlYabmEFbHN58vGRKJeUKwala_voGqgjaVmS_K00SGDs6PL5_3Fh1kSoIg5LnY-PdKjWcMD6RlwyuCakJsjnwKdI2muXB"/>
+<img class="rounded-2xl shadow-lg w-full h-48 object-cover" data-alt="An assortment of high-quality, premium cooking ingredients including fresh herbs like rosemary and thyme, organic tomatoes, high-grade olive oil in a glass bottle, and artisanal spices. The arrangement is artistic and clean on a light cream surface, suggesting freshness and quality. The light-mode aesthetic is bright and clear, with soft shadows and a focus on natural colors like vibrant greens and deep reds." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6oz215Y3KwQkrJaPv7HQJTeW1mrbHem5g_UUp2oTeefhY9cufuff2n2aHhx1AePEiQuLbYOXzY_9jk91eew8lz-vI5B9zYD8S-CsdOVhZlDflEy4T-pwbQKM9L8bP3W2MlSMmSKukGhwDuYs3Bb-qooYNgFR2_nllWucCcyavfjPJYK7a4vX3wkWvSV8qZcfsh1eFJ2ZfyMiZ60RDME-jP7t7tWjjbB0G79QbQuw66tgbFizq1_hcWIALd_TSZCKkIjiOP5OAoPsC"/>
+</div>
+<!-- Absolute badge -->
+<div class="absolute -bottom-6 -right-6 bg-primary text-on-primary p-8 rounded-full h-32 w-32 flex flex-col items-center justify-center text-center shadow-xl rotate-12">
+<span class="font-label-md text-label-md leading-none">100%</span>
+<span class="font-label-sm text-label-sm">Premium</span>
+</div>
+</div>
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-8">Rahasia Kelezatan Kami Adalah Kejujuran Bahan</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="h-12 w-12 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed">eco</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-1">Bahan Selalu Segar</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Kami percaya bahwa makanan enak dimulai dari bahan yang berkualitas. Kami hanya menggunakan sayuran segar dan daging pilihan setiap harinya.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="h-12 w-12 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed">bakery_dining</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-1">Proses Homemade</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Setiap lapisan pastry Zuppa dan setiap patty burger kami dibuat secara manual oleh tangan terampil kami, bukan hasil pabrikan massal.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="h-12 w-12 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed">verified</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary mb-1">Tanpa Pengawet</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Kesehatan Anda adalah prioritas. Semua menu kami bebas dari bahan pengawet buatan dan MSG berlebih, memberikan rasa gurih alami yang aman.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="bg-surface-container py-20 lg:py-32 overflow-hidden" id="about"><div class="px-gutter max-w-container-max mx-auto"><div class="flex flex-col lg:flex-row gap-16 items-center"><div class="lg:w-1/2 order-2 lg:order-1"><span class="text-primary font-label-md text-label-md uppercase tracking-widest mb-4 block">Kisah Kami</span><h2 class="font-headline-lg text-headline-lg mb-8">Tentang Zuppa Soup Creamy Pondok Mutiara</h2><div class="space-y-6 font-body-lg text-body-lg text-on-surface-variant"><p>Berawal dari dapur rumah di kawasan Pondok Mutiara, kami memulai perjalanan ini dengan satu misi sederhana: menghidangkan kehangatan dalam setiap mangkuk Zupa Zupa.</p><p>Sebagai bisnis keluarga artisanal, kami percaya bahwa kualitas tidak bisa diburu-buru. Resep ra</p></div></div></div></div></section></main></body></html>

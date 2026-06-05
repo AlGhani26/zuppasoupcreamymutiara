@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --color-tertiary-fixed-dim: #b5c8df;
+  --color-on-surface-variant: #594238;
+  --color-inverse-on-surface: #f6f1df;
+  --color-on-tertiary: #ffffff;
+  --color-primary-container: #c64f00;
+  --color-on-secondary-container: #6f5900;
+  --color-primary-fixed: #ffdbcd;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-primary: #ffffff;
+  --color-surface-tint: #a23f00;
+  --color-primary: #9e3d00;
+  --color-primary-fixed-dim: #ffb595;
+  --color-tertiary-container: #64768a;
+  --color-surface-container-low: #f9f4e2;
+  --color-on-primary-container: #fffbff;
+  --color-on-tertiary-container: #fdfcff;
+  --color-on-background: #1d1c11;
+  --color-on-surface: #1d1c11;
+  --color-on-error-container: #93000a;
+  --color-outline: #8c7166;
+  --color-error: #ba1a1a;
+  --color-surface-dim: #dfdac9;
+  --color-inverse-surface: #323125;
+  --color-surface-bright: #fef9e7;
+  --color-tertiary-fixed: #d1e4fb;
+  --color-secondary-fixed-dim: #eec209;
+  --color-on-secondary-fixed-variant: #574500;
+  --color-secondary: #735c00;
+  --color-outline-variant: #e0c0b2;
+  --color-on-tertiary-fixed: #091d2e;
+  --color-surface-container: #f3eedc;
+  --color-surface: #fef9e7;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #231b00;
+  --color-inverse-primary: #ffb595;
+  --color-surface-container-high: #ede8d7;
+  --color-surface-variant: #e7e3d1;
+  --color-on-tertiary-fixed-variant: #36485b;
+  --color-secondary-container: #fed023;
+  --color-tertiary: #4c5e71;
+  --color-secondary-fixed: #ffe084;
+  --color-surface-container-highest: #e7e3d1;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-background: #fef9e7;
+  --color-on-primary-fixed: #351000;
+  --color-on-primary-fixed-variant: #7c2e00;
+
+  --font-family-heading: "Playfair Display", serif;
+  --font-family-body: "Montserrat", sans-serif;
+
+  --spacing-gutter: 24px;
+  --spacing-margin-desktop: 48px;
+  --spacing-container-max: 1280px;
+  --spacing-margin-mobile: 16px;
+  --spacing-base: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+::selection {
+  background-color: var(--color-primary-fixed-dim);
+  color: var(--color-on-primary-fixed);
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* Food Card Hover Effects */
+.food-card-hover:hover .food-image {
+  transform: scale(1.05);
+}
+
+.food-card-hover:hover img {
+  transform: scale(1.05);
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(224, 192, 178, 0.3);
+}
+
+/* Hero Pattern */
+.hero-pattern {
+  background-color: #fef9e7;
+  background-image: radial-gradient(#e0c0b2 0.5px, transparent 0.5px),
+    radial-gradient(#e0c0b2 0.5px, #fef9e7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Typography utility classes */
+.text-headline-xl {
+  font-family: var(--font-family-heading);
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.text-headline-lg {
+  font-family: var(--font-family-heading);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.text-headline-md {
+  font-family: var(--font-family-heading);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.text-body-lg {
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-body-md {
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-label-md {
+  font-family: var(--font-family-body);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.text-label-sm {
+  font-family: var(--font-family-body);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
