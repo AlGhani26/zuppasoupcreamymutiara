@@ -10,9 +10,9 @@ const ArtisanalBanner = () => (
         src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo7SX5NxHH_Qt4GuZfa9J4hUxT5yS1_P2NEesTrJx0OUHOkFvkbFCbp3MMM_VMvzlnemgmlM7RvdZdNrAftuG-VLBkYnUKLVQsfROXx3UpBaUwUWbn9kekY0GhrpggABJVzlsw8vV9k57JaaYnbPrravxIm7rfgBGPzMBbEhXsd-Z349Ebd_2QjdRzFQJKLHGrjTXdhJHbvM2SbznCluUWlFK8KXuOo6B5ibIOPyxbEQD7HUaW4Nmr-t0EzR9ROoROE6hI-cpg1DNR"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex flex-col justify-end p-6 md:p-12">
-        <h1 className="text-headline-xl text-white mb-4">
+        <h2 className="text-headline-xl text-white mb-4">
           Our Artisanal Menu
-        </h1>
+        </h2>
         <p className="text-white/90 max-w-2xl text-body-lg">
           Hand-crafted comfort food made with premium ingredients and a dash of
           neighborly warmth. Specializing in our signature golden puff pastry
