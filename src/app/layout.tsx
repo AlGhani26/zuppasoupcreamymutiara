@@ -98,6 +98,15 @@ export const metadata: Metadata = {
   },
 };
 
+// JSON-LD Structured Data for WebSite (controls site name in Google Search)
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  alternateName: "Zuppa Soup Creamy",
+  url: SITE_URL,
+};
+
 // JSON-LD Structured Data for Local Business / Restaurant
 const jsonLd = {
   "@context": "https://schema.org",
@@ -236,6 +245,10 @@ export default function RootLayout({
       className={`${playfair.variable} ${montserrat.variable} scroll-smooth`}
     >
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
