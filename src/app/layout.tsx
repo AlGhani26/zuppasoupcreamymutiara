@@ -255,6 +255,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-TG9R9FMB');`,
           }}
         />
+        {/* Google tag (gtag.js) - Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9QKDLFZQ3L" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9QKDLFZQ3L');`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
